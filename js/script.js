@@ -45,11 +45,6 @@ function plays() {
 	char();
 }
 
-document.getElementById('home').addEventListener('keydown', function(e) {
-    console.log(e.key);
-})
-
-
 window.addEventListener("keydown", function (e) {
 	gameOver();
 	let alphas = e.key;
